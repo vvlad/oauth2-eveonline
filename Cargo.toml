@@ -1,0 +1,15 @@
+[package]
+name = "oauth2-eveonline"
+version = "0.1.0"
+authors = ["Vlad Verestiuc <verestiuc.vlad@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+oauth2 = { git = "https://github.com/ramosbugs/oauth2-rs.git" }
+url = "1.7.1"
+opener = "0.3.0"
+failure = "0.1.2"
+hyper = "0.12"
+webkit2gtk = "0.5.1"
+gtk = "0.5.0"
+glib = "0.6.0"
